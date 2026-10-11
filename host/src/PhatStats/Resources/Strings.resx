@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="Menu.SerialPort" xml:space="preserve">
+    <value>Serial Port</value>
+  </data>
+  <data name="Menu.Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Menu.SamplingInterval" xml:space="preserve">
+    <value>Sampling Interval</value>
+  </data>
+  <data name="Menu.Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Menu.PauseTelemetry" xml:space="preserve">
+    <value>Pause telemetry</value>
+  </data>
+  <data name="Menu.ResumeTelemetry" xml:space="preserve">
+    <value>Resume telemetry</value>
+  </data>
+  <data name="Menu.ReconnectNow" xml:space="preserve">
+    <value>Reconnect now</value>
+  </data>
+  <data name="Menu.Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Menu.Diagnostics" xml:space="preserve">
+    <value>Diagnostics</value>
+  </data>
+  <data name="Menu.StartWithWindows" xml:space="preserve">
+    <value>Start with Windows</value>
+  </data>
+  <data name="Menu.About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Menu.Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Menu.Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Status.Unconfigured" xml:space="preserve">
+    <value>Not configured</value>
+  </data>
+  <data name="Status.Ambiguous" xml:space="preserve">
+    <value>Multiple devices</value>
+  </data>
+  <data name="Status.NoDevice" xml:space="preserve">
+    <value>No device</value>
+  </data>
+  <data name="Status.Available" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="Status.Connecting" xml:space="preserve">
+    <value>Connecting</value>
+  </data>
+  <data name="Status.Connected" xml:space="preserve">
+    <value>Connected</value>
+  </data>
+  <data name="Status.Busy" xml:space="preserve">
+    <value>In use</value>
+  </data>
+  <data name="Status.Recovering" xml:space="preserve">
+    <value>Recovering</value>
+  </data>
+  <data name="Status.Switching" xml:space="preserve">
+    <value>Switching</value>
+  </data>
+  <data name="Status.Paused" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="Status.HardwareDegraded" xml:space="preserve">
+    <value>hardware degraded</value>
+  </data>
+  <data name="Notify.SerialBusy" xml:space="preserve">
+    <value>{0} exists but is currently in use. Connection will retry automatically.</value>
+  </data>
+  <data name="Notify.DeviceRemoved" xml:space="preserve">
+    <value>The selected serial device was removed. Reconnection will be automatic when it returns.</value>
+  </data>
+  <data name="Settings.Title" xml:space="preserve">
+    <value>PhatStats Settings</value>
+  </data>
+  <data name="Settings.SerialTarget" xml:space="preserve">
+    <value>Serial target</value>
+  </data>
+  <data name="Settings.Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Settings.Protocol" xml:space="preserve">
+    <value>Protocol</value>
+  </data>
+  <data name="Settings.SamplingInterval" xml:space="preserve">
+    <value>Sampling interval (ms)</value>
+  </data>
+  <data name="Settings.SerialControlLines" xml:space="preserve">
+    <value>Serial control lines</value>
+  </data>
+  <data name="Settings.WriteTimeout" xml:space="preserve">
+    <value>Write timeout (ms)</value>
+  </data>
+  <data name="Settings.StartWithWindows" xml:space="preserve">
+    <value>Start with Windows (elevated task)</value>
+  </data>
+  <data name="Settings.AutoSafeUsb" xml:space="preserve">
+    <value>Auto (safe USB target)</value>
+  </data>
+  <data name="Settings.Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Profile.CurrentPortrait" xml:space="preserve">
+    <value>Current portrait</value>
+  </data>
+  <data name="Profile.Legacy" xml:space="preserve">
+    <value>Legacy WeeStatServer 0.5.2</value>
+  </data>
+  <data name="Profile.Extended" xml:space="preserve">
+    <value>Extended compatibility</value>
+  </data>
+  <data name="Diagnostics.Title" xml:space="preserve">
+    <value>PhatStats Diagnostics</value>
+  </data>
+  <data name="Diagnostics.Copy" xml:space="preserve">
+    <value>Copy diagnostics</value>
+  </data>
+  <data name="Diagnostics.Export" xml:space="preserve">
+    <value>Export snapshot...</value>
+  </data>
+  <data name="Common.Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="About.Title" xml:space="preserve">
+    <value>About PhatStats</value>
+  </data>
+  <data name="About.Body" xml:space="preserve">
+    <value>PhatStats Windows Host
+Version {0}
+
+.NET 10 · WinForms
+LibreHardwareMonitorLib 0.9.6
+USB serial / Phat-Stats V3.1.7.3 ADV compatibility
+
+CurrentPortrait sends a complete realtime frame each sample.
+No network telemetry. No persistent telemetry history.</value>
+  </data>
+</root>

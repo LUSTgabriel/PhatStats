@@ -1,0 +1,830 @@
+[
+  {
+    "path": "firmware/.gitignore",
+    "sha256": "ba29efbfb7c8803293ea2d21897f7ec93f3785215b14fa6a99d34725ce2da1f3"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/CPU_AMD_STYLE1_I4.png",
+    "sha256": "2473cf6ed800264c47e16d1b5f04aa95282b8778e5bfc7bc889b3e6ab0e32210"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/CPU_AMD_STYLE2_I4.png",
+    "sha256": "fa3eb79fcce784f379044bce71a0cd11e7cff545b637b60dcf1c2066cd7871a9"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/CPU_AMD_STYLE5_I4.png",
+    "sha256": "609b61b89bc68af218184cf94035ffbd6761e83126086c7b2bb795632b2b8596"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/CPU_AMD_STYLE7_I4.png",
+    "sha256": "b0f1ba4327dcf86c3fbaf01ce480e1778d257dbc3fe51768b6ab821cda5484ca"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/CPU_INTEL_STYLE1_I4.png",
+    "sha256": "130cf27d6cd03cc82d5034e4faea7eac7d55ddbbd68c20be00019108ad9fdddd"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/CPU_INTEL_STYLE2_I4.png",
+    "sha256": "10f9dbc6e2aeb25b61772479c9c50daf0d8929ce199c80b2d15c1bda06316d97"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/CPU_INTEL_STYLE5_I4.png",
+    "sha256": "33af0b3cf14fd7335862ed048647324e19d1ebbde2369d6bc4f2a3b6683322a0"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/CPU_INTEL_STYLE7_I4.png",
+    "sha256": "305633ddd9f12e75664be71a11cd25c5d81e8f978a706327e3cb00e29ee92281"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/GPU_AMD_RADEON_I4.png",
+    "sha256": "ed5918cf6eccf7de5242f4ff9bdddb8838e38f0c66475f8202935055819d3624"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/GPU_AMD_RADEON_IGPU_I4.png",
+    "sha256": "f843602cf87dee4a17c56b363dd4c36c679012a7563e80dae42fae120a0053a7"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/GPU_AMD_RDNA_I4.png",
+    "sha256": "0dbe0201749281484860682d077e9a34a7a12222f6e96ac0c65e7254b52646a6"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/GPU_AMD_RDNA_IGPU_I4.png",
+    "sha256": "1b30d821625f05d007b8b3e276576ec20f017c13333b7f36dc07f7e360ab1c3f"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/GPU_INTEL_ARC_I4.png",
+    "sha256": "29f3f92f636a8f2841466c66622f4a59e9457f8011ff2b0b20e65044b2af1031"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/GPU_INTEL_UHD_IGPU_I4.png",
+    "sha256": "909cd490e5a3737ba96c608926041b10c81b6f58a94f99b5b10e39e7fee6f687"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/GPU_INTEL_XE_IGPU_I4.png",
+    "sha256": "73f7dee99eb5a87163685f4462b23fc1d7f0df14c8d851739f59cdd6fd88e27b"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/GPU_NVIDIA_GTX_I4.png",
+    "sha256": "a6c37866bf444aa854ed5458b9707570a3b2b39b1d0f658a61d50d5d527b08b2"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/GPU_NVIDIA_GTX_TI_I4.png",
+    "sha256": "2afab29fd7299209a4bda5b84414de2262aca9f6978d7d484db693b920bf5308"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/GPU_NVIDIA_PRO_I4.png",
+    "sha256": "0c55970a35f9e69e4257f734ff7ea0ab9b5b85d4da1f84c1f8668137fecc6b55"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/GPU_NVIDIA_RTX_I4.png",
+    "sha256": "695cb5ee7681177b783d4b66da8da96df5ab40d6fae7a4d41bab7c5ede70c241"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/GPU_NVIDIA_RTX_SUPER_I4.png",
+    "sha256": "744b7a0090e0515a38af01071dee748f5b3f1aa8c4a369d28b506d3767d4d870"
+  },
+  {
+    "path": "firmware/assets/exact_indexed4/GPU_NVIDIA_RTX_TI_I4.png",
+    "sha256": "c2952e87e540ef20a14bddc4f90a195c6784881f8f6f31af9317397f2a2001ac"
+  },
+  {
+    "path": "firmware/assets/preview_exact_indexed4.png",
+    "sha256": "eb68657f245b5fb9e9246b4dc932372b6ee162666f3b6f2cb4853648626ab9e5"
+  },
+  {
+    "path": "firmware/assets/preview_v5_exact_runtime.png",
+    "sha256": "eb68657f245b5fb9e9246b4dc932372b6ee162666f3b6f2cb4853648626ab9e5"
+  },
+  {
+    "path": "firmware/assets/reference_v5_approved_design.png",
+    "sha256": "e888d599fa77ad042fd6a4bc7c547c6b07e5ab5d265431926ffceb0892a07c7c"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_AMD_STYLE1_I4/accent.bmp",
+    "sha256": "3dde52b05e90435cd1e2d1e0b03f5e96eac8aaf3a587cb1005748af00295b110"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_AMD_STYLE1_I4/gray.bmp",
+    "sha256": "00689e97bc5786297780d71b6d688766e5e1224d5271844aedd9cf0d09cb9258"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_AMD_STYLE1_I4/white.bmp",
+    "sha256": "c6d35b1309b8c109c3451255a628b9cd1b37261dff2354ffbf8aebddb59b1a6f"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_AMD_STYLE1_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_AMD_STYLE2_I4/accent.bmp",
+    "sha256": "b7b199205ea7a64d5cca875c391259b3134243769da280b36c11a35f762bdb19"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_AMD_STYLE2_I4/gray.bmp",
+    "sha256": "0547627de4c240529e4e49f0eb885df4edd1e893a7d7b932b4652e9155381813"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_AMD_STYLE2_I4/white.bmp",
+    "sha256": "03011537ab11daee7d045e5ad78d9c1e2afeceb89f0f1fc73e84f1ca89f52439"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_AMD_STYLE2_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_AMD_STYLE5_I4/accent.bmp",
+    "sha256": "3486868ae868d5ad41ba332c046e0799a6087f8c9db23f2a75761a2cc2d2f63f"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_AMD_STYLE5_I4/gray.bmp",
+    "sha256": "e1bc06b8f6c3335c420a5a451023eacfb432c5c364a4c07a8ca7f3a878e95032"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_AMD_STYLE5_I4/white.bmp",
+    "sha256": "ac4a3ef41896e5d7616f69f203cbf3ce3a21b049f5dc44ec1f2a746d1edd582a"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_AMD_STYLE5_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_AMD_STYLE7_I4/accent.bmp",
+    "sha256": "4c56d21dba28d4195611396a077296d9ba973ad47c77f486b0f5ae8fd0804cf7"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_AMD_STYLE7_I4/gray.bmp",
+    "sha256": "63953f675567ac88ef8b38925feeee66215aa139e55be50caed5c72e7c401ee4"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_AMD_STYLE7_I4/white.bmp",
+    "sha256": "54d1c5432b63b562fe03a41c00a98acbaaff0d05189a5ceafb0a5a3aa97baf97"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_AMD_STYLE7_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_INTEL_STYLE1_I4/accent.bmp",
+    "sha256": "c45fb701c439b2f6a4d5c55a2dde96cd61c9282b8488442796bb83f805eb55ed"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_INTEL_STYLE1_I4/gray.bmp",
+    "sha256": "c5a9dc763162cb0ce97c46d2bb9bce9e1dd5e7f173defa1cfc6b766f54fc8c10"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_INTEL_STYLE1_I4/white.bmp",
+    "sha256": "a3398e3c0eda7277b1e6ece223e18e9b25a3496a8be8cc9d97e9717151086929"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_INTEL_STYLE1_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_INTEL_STYLE2_I4/accent.bmp",
+    "sha256": "104236f8b5b24bc885ece8a2196ef413ac3ad058a85faba03b572839b8589b0c"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_INTEL_STYLE2_I4/gray.bmp",
+    "sha256": "d2110695e815a7a30367f14816515147c93bfee640becb9da122eae4cd78d8d0"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_INTEL_STYLE2_I4/white.bmp",
+    "sha256": "0eb6411b91fb7aac925c380102a3cdbc06845e92a49145aaaa9fd6e67fdf7293"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_INTEL_STYLE2_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_INTEL_STYLE5_I4/accent.bmp",
+    "sha256": "8fdc77bd3a98ffc1b82ee8e2cedd97cac72b9b64ee41ec08a7a4f2c517716ec9"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_INTEL_STYLE5_I4/gray.bmp",
+    "sha256": "e17a07c92c43fae10beb76dfc70bea0ac5f5e36e8d82bb5a239c3b1a3ed1b738"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_INTEL_STYLE5_I4/white.bmp",
+    "sha256": "b6e8c46b13470f9e0b0d8cd2db3ff4fe86e3f03f88f4deaaef43402b80609c6e"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_INTEL_STYLE5_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_INTEL_STYLE7_I4/accent.bmp",
+    "sha256": "95d2cbdf71aabf7762c3ab0f17f1aa9298fbd177856c7b24b3e4778d28a76af8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_INTEL_STYLE7_I4/gray.bmp",
+    "sha256": "3464d38bbba66576fe467643afc311f5dcf3925eb3be052e9a403a8369ca52d0"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_INTEL_STYLE7_I4/white.bmp",
+    "sha256": "a42d4411ff449898eaa8f2696e4d7b4885a9ee078b6385e3e3892a08bcc75874"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/CPU_INTEL_STYLE7_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_AMD_RADEON_I4/accent.bmp",
+    "sha256": "18d1c9ed8c00e54dafc9a071d6aa0009d093466882ee3130800c9398ef700c0a"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_AMD_RADEON_I4/gray.bmp",
+    "sha256": "73cb80f247511db7322f292da6c29e2c2f6259499e34123edbec932843865862"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_AMD_RADEON_I4/white.bmp",
+    "sha256": "5a18708a62fb727759d1430ee13b398e8e8f55dff5fef2e5b3cd582d50d92de9"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_AMD_RADEON_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_AMD_RADEON_IGPU_I4/accent.bmp",
+    "sha256": "908d2a817e7196b147616da69d43c5691e0d5aea47b920de5a4c6588351a67e3"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_AMD_RADEON_IGPU_I4/gray.bmp",
+    "sha256": "7a850e132583a361903353403c28c5b6604590b770319c45e100a76baf70cbeb"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_AMD_RADEON_IGPU_I4/white.bmp",
+    "sha256": "e07a5f04240fc2bae46d18dec9d9d88ba254b623a2c58bb9b480400ef8a57131"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_AMD_RADEON_IGPU_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_AMD_RDNA_I4/accent.bmp",
+    "sha256": "4c3e3a8d8e4da6013d5f3660fe9438aa5f1e578b59b9a611da959ed71ef53e4a"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_AMD_RDNA_I4/gray.bmp",
+    "sha256": "51084dd4fdab045e3198740b89c951a0577dd7c241488b841dffa2a3636cffce"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_AMD_RDNA_I4/white.bmp",
+    "sha256": "28cf9dd32223bec2ba0da537c0c8471fb413d83945fcf08707d0b0b3065c463c"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_AMD_RDNA_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_AMD_RDNA_IGPU_I4/accent.bmp",
+    "sha256": "2b72c1cf7d732db908ed7ddda34f3701854b3da4f183e7754c6c6b804470e598"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_AMD_RDNA_IGPU_I4/gray.bmp",
+    "sha256": "035f4285ef8643c5a6a99d2f0bfe0fe8fe9edf63ffe9e8c9b0dfd87d11377ddb"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_AMD_RDNA_IGPU_I4/white.bmp",
+    "sha256": "baa8a83c6a523cf915e371a3949db0787140d0e213a021e3f13c0382a824732a"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_AMD_RDNA_IGPU_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_INTEL_ARC_I4/accent.bmp",
+    "sha256": "8e82e67b96b7dd9bb3fc6e00bff7e9b0c8392caaf9553aa1c24860795c6245af"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_INTEL_ARC_I4/gray.bmp",
+    "sha256": "c4e90a5449cecf93bc46faa5a4a1cd9c80f6a6cc792a3d7a3c5bdeb67668580c"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_INTEL_ARC_I4/white.bmp",
+    "sha256": "c3ae32b15e4f153f7e8f2fbadef60f87f0da4cfeeb44c916bce034d461c00c04"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_INTEL_ARC_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_INTEL_UHD_IGPU_I4/accent.bmp",
+    "sha256": "8ee7a90608b171ee38a87dc2924dffc44738aa908d316ef284647769cd033605"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_INTEL_UHD_IGPU_I4/gray.bmp",
+    "sha256": "53516b0682c3b078c4821cb897b0184fd856f1ded259fd28f22afff6692c5a51"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_INTEL_UHD_IGPU_I4/white.bmp",
+    "sha256": "a13fcdc4410a853bae93920ddab84544dbdc6d489ed65a42d86953fb4367db26"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_INTEL_UHD_IGPU_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_INTEL_XE_IGPU_I4/accent.bmp",
+    "sha256": "5e8ab1b894b0e6b65fa124811d7cb14df7f5c4b84aadbf7d6e1d1acdd00d1090"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_INTEL_XE_IGPU_I4/gray.bmp",
+    "sha256": "a9c3189b4cb484f983e6aa79bb971f33b096e6eb54f75ca21530fde40cd284e9"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_INTEL_XE_IGPU_I4/white.bmp",
+    "sha256": "fac6f9ddfdff6f11a75198f7cd2031ddaa3ac24bb90fee27174191e4d257073d"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_INTEL_XE_IGPU_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_GTX_I4/accent.bmp",
+    "sha256": "0d47b2884578a77c4dce33275e80f8be6539792c52c67fced1316efbdbbe3cc9"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_GTX_I4/gray.bmp",
+    "sha256": "a4aaeb083593bbda38dddbb5b131ed50fab61475d06732fb72e2308edc47a836"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_GTX_I4/white.bmp",
+    "sha256": "8f46c5ad866281ace8f847b9468ecc3c02946dc5fdcea9f7c8091e8c4148def8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_GTX_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_GTX_TI_I4/accent.bmp",
+    "sha256": "d0fa30eca6579b7ffacbba4b4e7c0775e3b867dea2e7b3f8f585fb2cfab28c89"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_GTX_TI_I4/gray.bmp",
+    "sha256": "ff5714dc7f8b3d7ecc53bb8040f0c26419d18fff1aa616b58ce7e8e32804c045"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_GTX_TI_I4/white.bmp",
+    "sha256": "0925ed6edbcb83dc3d85443d26d8650ea027ff66f444f621ddcd86ac20d53562"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_GTX_TI_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_PRO_I4/accent.bmp",
+    "sha256": "e26e0a905a8b5e51be42f9af100a49c63f9a7bec4ef2f0dbf2cf0ff0ee67c659"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_PRO_I4/gray.bmp",
+    "sha256": "56766482b48c8630be432942c8a8974c8ebe26926c13bee70217acda51b3a241"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_PRO_I4/white.bmp",
+    "sha256": "dee18acff4aaeecc0486a949567560ca980422cf8d795735ab031fc0ed0b6a58"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_PRO_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_RTX_I4/accent.bmp",
+    "sha256": "14a7373bafce8708848212b2d891a6dd6bcb32106308cdb32114f1ef15cdd3aa"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_RTX_I4/gray.bmp",
+    "sha256": "fc2ccf5ad8b39f8a427c578443d03f8dee673d9a6c08ae8d86c6b1e9bcadf14e"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_RTX_I4/white.bmp",
+    "sha256": "c8a813b57ba7bc83479071795fd7f709a590163b7beace25ad23dd5bfcefff64"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_RTX_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_RTX_SUPER_I4/accent.bmp",
+    "sha256": "478a1aeeccc753eff07772b8d2cc81418815fb6fc044dde46485a466b73a46d9"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_RTX_SUPER_I4/gray.bmp",
+    "sha256": "d17eb0868d72cc054c0b54ac4c2d365354031a9a043432d7c32c9de3ba9ecc54"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_RTX_SUPER_I4/white.bmp",
+    "sha256": "3344126b7e417c5e18eac1a7d7d7d042f4ee87e7cdca86b3fbee126a75cd8167"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_RTX_SUPER_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_RTX_TI_I4/accent.bmp",
+    "sha256": "9bea965c72390e0e27df9db1d66a66d74883445798b0ebd53545e3e682c5ac7f"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_RTX_TI_I4/gray.bmp",
+    "sha256": "b6c4f5eb0c05c4c6468969b203fc6d8a128b4d75a07c6903d9445f59988a4952"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_RTX_TI_I4/white.bmp",
+    "sha256": "a83d8f2ef5dc3502062d6a346c3b9038dfefe64f8712b5b98f845a3f7333e947"
+  },
+  {
+    "path": "firmware/assets/v5_1bit_layers/GPU_NVIDIA_RTX_TI_I4/yellow.bmp",
+    "sha256": "229b528497da9cc7344b35fe6ac6a99525d2b5d5bb44e9799a4b2293a77165b8"
+  },
+  {
+    "path": "firmware/assets/v5_icon_manifest.json",
+    "sha256": "4ca4c60806a2c82db3e7145c01c0ca6786bf0cad42fc1ca41b10c9fda6028d2d"
+  },
+  {
+    "path": "firmware/assets/V5_ICON_STANDARD.md",
+    "sha256": "fae405f7a5d3b5cc8ba9824f89b85c3681270003aab48e378c0e4a1393769fe4"
+  },
+  {
+    "path": "firmware/build_and_audit.cmd",
+    "sha256": "a286f5949236689e7bff15a5cd6bb13d272cf7f8cd94fdf5b3eb9e65d686ca7c"
+  },
+  {
+    "path": "firmware/build_and_audit.ps1",
+    "sha256": "add74bb55f75291bfc249aa928f67d7b3a1162725a82242cc2e8baa4bdea53c0"
+  },
+  {
+    "path": "firmware/include/ArtworkAutoSelect.h",
+    "sha256": "2075c1766a0294b8dfbba02154cb55c19264723ee799b629ecea9d8325b56a6b"
+  },
+  {
+    "path": "firmware/include/ArtworkTypes.h",
+    "sha256": "96953b0655a9ff4cf2a24fae4d545358c9ff888ef75484649ffb53336597ed3c"
+  },
+  {
+    "path": "firmware/include/BoardPins.h",
+    "sha256": "6a8a871416da5c5038fe842cdd82c896063e808c347392357cd416e795761ac7"
+  },
+  {
+    "path": "firmware/include/LegacyBitmaps.h",
+    "sha256": "e6d33e2413c604b056727b20f37910c604834576faef4e814aac1b71d94e0320"
+  },
+  {
+    "path": "firmware/include/PhatStatsConfig.h",
+    "sha256": "cf3ef9ceeeefd25a614e9956f410f38c1b1a00bfda7f63100790f8b4ba4c31e9"
+  },
+  {
+    "path": "firmware/include/PixelArtIndexed4.h",
+    "sha256": "c6d9495583b5f282fc92255fdd91ea631e044056120e4ba21cf05e89be477877"
+  },
+  {
+    "path": "firmware/include/PixelArtRenderer.h",
+    "sha256": "2688f0489935fe121e256aa5a2b04c974450610a32de4a654dfa5324cec948b8"
+  },
+  {
+    "path": "firmware/include/PlatformGuards.h",
+    "sha256": "4ab4b0ffe3e397b24da570a5127f64f3bd61e601675c2f5ca3aacd8619432fc2"
+  },
+  {
+    "path": "firmware/include/SketchPrototypes.h",
+    "sha256": "2ebe74ef6c5ce365c48a6e9d8a36eacb3c07048f46da6717a95ce121403805ff"
+  },
+  {
+    "path": "firmware/include/StatusIndicators.h",
+    "sha256": "458ab71eb28e007d9896d44ef53e68805049b53e4a6b64d3e3a27dba1aae858b"
+  },
+  {
+    "path": "firmware/legacy/original_v3.1.7.3/BT_Bitmaps.h",
+    "sha256": "e6d33e2413c604b056727b20f37910c604834576faef4e814aac1b71d94e0320"
+  },
+  {
+    "path": "firmware/legacy/original_v3.1.7.3/Configuration_Settings.h",
+    "sha256": "8b61e163b7e6d3dc38d9036e56a23475ab328dcf6119746288f411437f510cba"
+  },
+  {
+    "path": "firmware/legacy/original_v3.1.7.3/Display_LS.ino",
+    "sha256": "50d560781bcf578b2e5e97682c048ea3238926e28d18c3ec25c09c5c006075b7"
+  },
+  {
+    "path": "firmware/legacy/original_v3.1.7.3/Display_LS_180.ino",
+    "sha256": "295ca149a3a3b5f3bf3cff706f31c171017f35f432afd6b58b2e8fc8213e771e"
+  },
+  {
+    "path": "firmware/legacy/original_v3.1.7.3/FeatureSet_Indicator_ESP.ino",
+    "sha256": "1d13933094766f5318b1a83a2607c87b75caf3a796c1e9f8b49caf7bddce3e94"
+  },
+  {
+    "path": "firmware/legacy/original_v3.1.7.3/NeopixelRingGauges.ino",
+    "sha256": "53ee55ca102835de34839cb780f548e8b74fd7cfacf91dff0b2ac78dfdabeec7"
+  },
+  {
+    "path": "firmware/legacy/original_v3.1.7.3/PCB_ThresholdTriggerEvents.ino",
+    "sha256": "4320e4d718ec0fe470e8210b55b1dd6f408e8adeb6d39245073d42d0001705b9"
+  },
+  {
+    "path": "firmware/legacy/original_v3.1.7.3/PhatStats_TFT_LOLIN_ESP32_V3.1.7.3_ADV.ino",
+    "sha256": "d52ebdc97e3278559f78f86d09070c2ccb1c27b52faa70ad87e3859c53547a68"
+  },
+  {
+    "path": "firmware/legacy/original_v3.1.7.3/stored/Display_LS_Batt.ino",
+    "sha256": "7a4287b9b0a86766fa12c1a2199bfffe1ed30253d0f4610a16fb4f40e84889ff"
+  },
+  {
+    "path": "firmware/legacy/original_v3.1.7.3/stored/Display_LS_Batt_180.ino",
+    "sha256": "5ced04bb2ae2773314eb76b1149dae8cd5090f69c64606eeed0ba7a3bae083a6"
+  },
+  {
+    "path": "firmware/legacy/original_v3.1.7.3/stored/Display_Port_Batt.ino",
+    "sha256": "8f53988c50dee3f514a0ba9099129db0a91d4c4215cc2ac72b5c8cc955188aae"
+  },
+  {
+    "path": "firmware/legacy/original_v3.1.7.3/stored/Display_Port_Batt_180.ino",
+    "sha256": "8c9f960fbd2e63690fabbc64591040bef59d245d582a43e166bcf6a3474fa374"
+  },
+  {
+    "path": "firmware/legacy/original_v3.1.7.3/Z_Button_Modes.ino",
+    "sha256": "422bb5eb63e5f958f8d83e186b89aab56b015fcd9b7a7a9bf3a340a221e19b77"
+  },
+  {
+    "path": "firmware/LICENSE.txt",
+    "sha256": "f439a5059dc105615a1e6bc9c6cd996b8e62fde215af1d1b8df85e21ed54aae0"
+  },
+  {
+    "path": "firmware/partitions/huge_app.csv",
+    "sha256": "429b65ad57e9ace9f69921c21f963945fb9bd2438ac8f1ec9fcb10743f7f24bc"
+  },
+  {
+    "path": "firmware/platformio.ini",
+    "sha256": "847097aece6a05a52881f6cb5aceb097be0c39282407487b5ff4eb3f19f4d67e"
+  },
+  {
+    "path": "firmware/protocol_golden/Display_Port_Batt.original.ino",
+    "sha256": "8f53988c50dee3f514a0ba9099129db0a91d4c4215cc2ac72b5c8cc955188aae"
+  },
+  {
+    "path": "firmware/protocol_golden/portrait_geometry_signature.txt",
+    "sha256": "7919e7d8ca3bb4ea5803b81a611056011bff658100c30c998801bad33303f42d"
+  },
+  {
+    "path": "firmware/protocol_golden/portrait_parser_signature.txt",
+    "sha256": "b479287760bf367d1d51bb322cf9808e8862d0ca7f65e962cda119042bcad93f"
+  },
+  {
+    "path": "firmware/protocol_golden/serialBTEvent.txt",
+    "sha256": "b15a419ef7cdb05f25723fbbcc9c79faa69701bc1eb4c9f1c8d98addd54e8433"
+  },
+  {
+    "path": "firmware/protocol_golden/serialEvent.txt",
+    "sha256": "909377fbf749bde180d857e53dfd23da53c6ff2641c66fe500b2f7acd23e4d80"
+  },
+  {
+    "path": "firmware/README.md",
+    "sha256": "d370c0928a559e0ed0ca21e16bf6c695c3884de6609da0e20b34f3706c80eba1"
+  },
+  {
+    "path": "firmware/src/main.cpp",
+    "sha256": "c45c86b7a525669bab7693a07d9193abb3f4dafc5cdc389643ea13b152859555"
+  },
+  {
+    "path": "firmware/src/ui/Display_Port_Batt.hpp",
+    "sha256": "5edbfe9788ace00984f773221cf8221625fba7e965781b2e9d13e02c132715fb"
+  },
+  {
+    "path": "firmware/src/ui/FeatureSet_Indicator_ESP.hpp",
+    "sha256": "1d13933094766f5318b1a83a2607c87b75caf3a796c1e9f8b49caf7bddce3e94"
+  },
+  {
+    "path": "firmware/src/ui/NeopixelRingGauges.hpp",
+    "sha256": "53ee55ca102835de34839cb780f548e8b74fd7cfacf91dff0b2ac78dfdabeec7"
+  },
+  {
+    "path": "firmware/src/ui/PCB_ThresholdTriggerEvents.hpp",
+    "sha256": "4320e4d718ec0fe470e8210b55b1dd6f408e8adeb6d39245073d42d0001705b9"
+  },
+  {
+    "path": "firmware/src/ui/Z_Button_Modes.hpp",
+    "sha256": "fca29b1487219d25bf4468d6df33ebe80defa7b24434f76d43633d43ceec2387"
+  },
+  {
+    "path": "firmware/tools/audit_project.py",
+    "sha256": "e9259ba71ddba3d7401077780151151f36b5068d84870f92131788ceb2e45296"
+  },
+  {
+    "path": "firmware/tools/generate_indexed_art.py",
+    "sha256": "8602b7871fb2c2430a22143725d7fb680cc7e19f3c965cb5fb5181f925db95ca"
+  },
+  {
+    "path": "firmware/tools/pio_protocol_guard.py",
+    "sha256": "603562b7232a9aebc088032482c817bfd38366c4a96855197e200131233d0f19"
+  },
+  {
+    "path": "host/BUILD_FIX_v1.2.md",
+    "sha256": "121a12fac96cfe0868fa2f3d7b1825070cfd9e56c10fdd3b203e49685875996f"
+  },
+  {
+    "path": "host/BUILD_FIX_v1.3.1.md",
+    "sha256": "e46f2d9fff3d24db57ee2369dd69d963d4057bb6dd996edb404298c277f642db"
+  },
+  {
+    "path": "host/build_single_exe.cmd",
+    "sha256": "67045748c86a99ed966e223dac0fe02b79bb486c9525e4ca7351dc0527eed5ca"
+  },
+  {
+    "path": "host/build_single_exe.ps1",
+    "sha256": "86ddaa9f9a79e6d20bd097dee1377d01622c8b8e56ec74b74c3f031c04287149"
+  },
+  {
+    "path": "host/global.json",
+    "sha256": "20c93ca7812d0a9825eef71217156f95ab2f4fe5aadfeb22ebc1c24b630018d3"
+  },
+  {
+    "path": "host/LICENSE",
+    "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+  },
+  {
+    "path": "host/LICENSES/LibreHardwareMonitor-MPL-2.0.txt",
+    "sha256": "29e5868a61bba377dcca786c01af96c82110104822697e0707d5696807d7f4a3"
+  },
+  {
+    "path": "host/MEMORY_OPTIMIZATION_v1.3.md",
+    "sha256": "b999c115ee225fa92cff324e0b63aa95d8bde32c124a6a4a152030e413a78001"
+  },
+  {
+    "path": "host/PhatStats.sln",
+    "sha256": "b092a2020578cb1204f56834dfc74e24d8ab7ae8afa019066922cdf3b33c45da"
+  },
+  {
+    "path": "host/README.md",
+    "sha256": "1e2fe3715c8f56c871b0c38386e67c1f7b89b6052aa8e793ae51fc9c78e357ca"
+  },
+  {
+    "path": "host/src/PhatStats/App/PhatStatsApplicationContext.cs",
+    "sha256": "a9aafc4eed904ad7770d396186dd1d5195eb2c8945c955d5749708ffa066703f"
+  },
+  {
+    "path": "host/src/PhatStats/App/SingleInstanceGate.cs",
+    "sha256": "81820cba1c152da224893709959a56f6c99a0cd32d488329c78813f48164556f"
+  },
+  {
+    "path": "host/src/PhatStats/App/SystemMessageWindow.cs",
+    "sha256": "5456a42cab808303a8f5c6ef274c526886215b0b7ba86995ee3540bba0366bdf"
+  },
+  {
+    "path": "host/src/PhatStats/App/TaskSchedulerStartup.cs",
+    "sha256": "a4e9745f0dc3f1981c5c3629d58127ffdad78475f15e460dbe0a4d454c97f8c9"
+  },
+  {
+    "path": "host/src/PhatStats/app.manifest",
+    "sha256": "e90d3b008e74c422e6e3f89f71442ebc88c4e29a9b8426ebff6d0df16b296e2c"
+  },
+  {
+    "path": "host/src/PhatStats/Diagnostics/DiagnosticState.cs",
+    "sha256": "9b752486b0de7c544221d67d63cab291014db3d347b5eeda91d2b06b22c1e8d3"
+  },
+  {
+    "path": "host/src/PhatStats/Diagnostics/SevereErrorRing.cs",
+    "sha256": "e7b4e74947f36d187a55fcb832cfa7e0e42b490c21f7179e2f9fd888ede839d5"
+  },
+  {
+    "path": "host/src/PhatStats/Hardware/HardwareTelemetryEngine.cs",
+    "sha256": "d2bd1b91c20b5df34e1c86e899a68c64525bffb2816e019bd3425d55991af1bb"
+  },
+  {
+    "path": "host/src/PhatStats/Hardware/RawTelemetrySnapshot.cs",
+    "sha256": "cf50b10100822879af89b771f624b18717aa0bdf8d7f84f387e3924a353abb13"
+  },
+  {
+    "path": "host/src/PhatStats/Hardware/SensorResolver.cs",
+    "sha256": "6425a50827c2e19d9348348c72e268f6a4c37bc142baa23c468beddf330d4ad6"
+  },
+  {
+    "path": "host/src/PhatStats/Hardware/SnapshotValidator.cs",
+    "sha256": "96610cc6b6bfc07c9a52d8b02f3115c03110521029a92b72d2da9eb8b36b7c97"
+  },
+  {
+    "path": "host/src/PhatStats/Hardware/WindowsMemoryReader.cs",
+    "sha256": "8ba71cac560f6dc60d709353aec950abda4b88a0c0bec814411461d50eea7ec3"
+  },
+  {
+    "path": "host/src/PhatStats/Localization/LocalizationService.cs",
+    "sha256": "47601e236a6be30689b92ab73004feaadca169fa6994060b81ef8d4a65ef59ad"
+  },
+  {
+    "path": "host/src/PhatStats/Models/DeviceDescriptors.cs",
+    "sha256": "314bfeb6b3f73de1d012f82893c1719351891bdc20a39aab4dd9e0c21271901c"
+  },
+  {
+    "path": "host/src/PhatStats/Models/TelemetrySnapshot.cs",
+    "sha256": "8ba6f7c88299cef9850ecf2f8528a1dce8adcfa2190fccfd85829ddb887f33d1"
+  },
+  {
+    "path": "host/src/PhatStats/PhatStats.csproj",
+    "sha256": "0de119885d052522632c2715ff3c2a0b624320b980027749c7a4f7c5926e1f04"
+  },
+  {
+    "path": "host/src/PhatStats/Program.cs",
+    "sha256": "d26e0161ad16d0f6e652eabc752c50bd0cd5db3eaed109cfe22e2bf62c5b1909"
+  },
+  {
+    "path": "host/src/PhatStats/Protocol/NameSanitizer.cs",
+    "sha256": "981922c3864dce059e9723b7484e33470471409e35fbb5e1a1fd8521557e4b6e"
+  },
+  {
+    "path": "host/src/PhatStats/Protocol/ProtocolEncoder.cs",
+    "sha256": "f772b891233052fe3dce721e744aef2380b188361d995d0c6f0e9dd409fe664e"
+  },
+  {
+    "path": "host/src/PhatStats/Protocol/ProtocolProfile.cs",
+    "sha256": "fbe3cbcf453913b707cae7fc201ab2537ba31389f63c7c708568275884ab213a"
+  },
+  {
+    "path": "host/src/PhatStats/Protocol/ProtocolSession.cs",
+    "sha256": "bcc319330ab3b6c2350e3b006b6d0c3b4595ffc8b4bec1c5404d5836466e65f8"
+  },
+  {
+    "path": "host/src/PhatStats/Resources/Strings.ja-JP.resx",
+    "sha256": "a59aba3a9d90c33e9413a33c0854c96ea612d832afbd7a9f973ee4c60bd2e28c"
+  },
+  {
+    "path": "host/src/PhatStats/Resources/Strings.ko-KR.resx",
+    "sha256": "147513da0fb386c6fcb7259dffffdb5611aed9ddb326025db7a43d529c9991ff"
+  },
+  {
+    "path": "host/src/PhatStats/Resources/Strings.resx",
+    "sha256": "35843d22c3b2dba6c4f67eb145d9d5096792f7d6730fb2670a287176fddc943d"
+  },
+  {
+    "path": "host/src/PhatStats/Resources/Strings.zh-CN.resx",
+    "sha256": "2836f8abe5b5e4b1e0ae0726558dcdb75112d4151e52a4a0b7bcc86c2449d66e"
+  },
+  {
+    "path": "host/src/PhatStats/Runtime/LatestSnapshotMailbox.cs",
+    "sha256": "cb87e5e45377a7fe142c7ca247d138fca11a5487e787aad7d78554633fc0aa94"
+  },
+  {
+    "path": "host/src/PhatStats/Runtime/TelemetryCoordinator.cs",
+    "sha256": "be0a34a4a87142db8cd085141a3e69aa371fd817b52ab98d2778354df7936fe2"
+  },
+  {
+    "path": "host/src/PhatStats/Serial/SerialConnectionState.cs",
+    "sha256": "33d672dae3d8b00d728364eab03fc3b195f4c9707c6346cf514a77f221f9e2b3"
+  },
+  {
+    "path": "host/src/PhatStats/Serial/SerialDeviceInfo.cs",
+    "sha256": "dd8fa6c41a37eabc948cfb75f39df3d88aab2540afc252591d8e9ff1bb49d070"
+  },
+  {
+    "path": "host/src/PhatStats/Serial/SerialDeviceManager.cs",
+    "sha256": "05d10646aa5d16e77b767be777179823ecbdf2ccae9eece02799ce9771ab283b"
+  },
+  {
+    "path": "host/src/PhatStats/Serial/SerialTransport.cs",
+    "sha256": "9af64d6ef3feb7c05edec619a5a8801d9d1dd3054826394e70a71b7e52b61b64"
+  },
+  {
+    "path": "host/src/PhatStats/Serial/SetupApiPortEnumerator.cs",
+    "sha256": "0c044de9f581fe515a4ab1db839f4484bd1e85a3023bad37599143a6e90966d7"
+  },
+  {
+    "path": "host/src/PhatStats/Settings/AppSettings.cs",
+    "sha256": "793b1960137ed9b29f53a1175cb8d7b8306ee0fbb151d481f01232b8f8dd86c6"
+  },
+  {
+    "path": "host/src/PhatStats/Settings/SettingsManager.cs",
+    "sha256": "577dbc809cbe4c36c0b1c4c52c234402c6723e92350fb2531b1bcadf4dfe7f24"
+  },
+  {
+    "path": "host/src/PhatStats/UI/AboutForm.cs",
+    "sha256": "d7b14b7190ea2cdf21114a751b912ccdae39dd697ebb4c722050a3e5d0b5d5fc"
+  },
+  {
+    "path": "host/src/PhatStats/UI/DiagnosticsForm.cs",
+    "sha256": "52656ca89305198a58d1d61d90ab0bcd65319fc9eaecefa4ab45667d350f7137"
+  },
+  {
+    "path": "host/src/PhatStats/UI/SettingsForm.cs",
+    "sha256": "a7002475eb0c92d22c028119a7388d16d9c23fd711786919cecbf3110777d80c"
+  },
+  {
+    "path": "host/src/PhatStats/UI/TrayIconFactory.cs",
+    "sha256": "bed99a6c829042d937a0a4505cbf84bc0fb7ded28f50384d0adcb141eeeb860d"
+  },
+  {
+    "path": "host/tests/PhatStats.SelfTest/PhatStats.SelfTest.csproj",
+    "sha256": "204a954cb40b7658ca9b1e77a98af23c175585565fedb8e7d0bcaa88a3923744"
+  },
+  {
+    "path": "host/tests/PhatStats.SelfTest/Program.cs",
+    "sha256": "a9a18d450918e0e04601829f0be0aae288ac96a8c2692ff40d80c508d5d3b2d7"
+  },
+  {
+    "path": "host/THIRD_PARTY_NOTICES.md",
+    "sha256": "c13600ef521cc5b8538d026629c2f2be12251666b8dff77d3efb120db26be731"
+  },
+  {
+    "path": "host/tools/Test-PhatStatsSerial.ps1",
+    "sha256": "d22eacac340db61ed32db63ca12a328318d6834e3f07396adb601cab7dc2f8bd"
+  },
+  {
+    "path": "host/tools/Watch-PhatStatsMemory.ps1",
+    "sha256": "71bab19a7a13382b2b55f575c92f9e9909fa7b32a9e8c31ecce03b6758e74847"
+  }
+]

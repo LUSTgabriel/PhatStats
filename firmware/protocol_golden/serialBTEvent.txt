@@ -1,0 +1,22 @@
+void serialBTEvent() {
+  while (SerialBT.available()) {
+
+    char inChar = (char)SerialBT.read();
+    //Serial.print(inChar); // Debug Incoming Serial
+
+    // add it to the inputString:
+    inputString += inChar;
+    // if the incoming character has '|' in it, set a flag so the main loop can do something about it:
+    if (inChar == '|') {
+      stringComplete = true;
+
+      delay(Serial_eventDelay);   //delay screen event to stop screen data corruption
+
+#ifdef enableTX_LED
+      /* Serial Activity LED */
+      digitalWrite(TX_LEDPin, LOW);   // turn the LED off HIGH(OFF) LOW (ON)
+#endif
+
+    }
+  }
+}

@@ -1,0 +1,17 @@
+**/bin/
+**/obj/
+**/.pio/
+**/dist/
+.vs/
+.vscode/
+!firmware/.vscode/
+firmware/.vscode/*
+!firmware/.vscode/extensions.json
+__pycache__/
+*.user
+*.suo
+*.log
+*.pfx
+*.key
+.env*
+settings.json

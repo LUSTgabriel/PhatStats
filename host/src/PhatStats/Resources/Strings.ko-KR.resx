@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="Menu.SerialPort" xml:space="preserve">
+    <value>직렬 포트</value>
+  </data>
+  <data name="Menu.Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Menu.SamplingInterval" xml:space="preserve">
+    <value>샘플링 간격</value>
+  </data>
+  <data name="Menu.Language" xml:space="preserve">
+    <value>언어</value>
+  </data>
+  <data name="Menu.PauseTelemetry" xml:space="preserve">
+    <value>텔레메트리 일시 중지</value>
+  </data>
+  <data name="Menu.ResumeTelemetry" xml:space="preserve">
+    <value>텔레메트리 재개</value>
+  </data>
+  <data name="Menu.ReconnectNow" xml:space="preserve">
+    <value>지금 다시 연결</value>
+  </data>
+  <data name="Menu.Settings" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="Menu.Diagnostics" xml:space="preserve">
+    <value>진단</value>
+  </data>
+  <data name="Menu.StartWithWindows" xml:space="preserve">
+    <value>Windows 시작 시 실행</value>
+  </data>
+  <data name="Menu.About" xml:space="preserve">
+    <value>정보</value>
+  </data>
+  <data name="Menu.Exit" xml:space="preserve">
+    <value>종료</value>
+  </data>
+  <data name="Menu.Auto" xml:space="preserve">
+    <value>자동</value>
+  </data>
+  <data name="Status.Unconfigured" xml:space="preserve">
+    <value>미설정</value>
+  </data>
+  <data name="Status.Ambiguous" xml:space="preserve">
+    <value>여러 장치</value>
+  </data>
+  <data name="Status.NoDevice" xml:space="preserve">
+    <value>장치 없음</value>
+  </data>
+  <data name="Status.Available" xml:space="preserve">
+    <value>사용 가능</value>
+  </data>
+  <data name="Status.Connecting" xml:space="preserve">
+    <value>연결 중</value>
+  </data>
+  <data name="Status.Connected" xml:space="preserve">
+    <value>연결됨</value>
+  </data>
+  <data name="Status.Busy" xml:space="preserve">
+    <value>사용 중</value>
+  </data>
+  <data name="Status.Recovering" xml:space="preserve">
+    <value>복구 중</value>
+  </data>
+  <data name="Status.Switching" xml:space="preserve">
+    <value>전환 중</value>
+  </data>
+  <data name="Status.Paused" xml:space="preserve">
+    <value>일시 중지</value>
+  </data>
+  <data name="Status.HardwareDegraded" xml:space="preserve">
+    <value>하드웨어 텔레메트리 저하</value>
+  </data>
+  <data name="Notify.SerialBusy" xml:space="preserve">
+    <value>{0} 포트가 있지만 다른 프로그램에서 사용 중입니다. 자동으로 다시 시도합니다.</value>
+  </data>
+  <data name="Notify.DeviceRemoved" xml:space="preserve">
+    <value>선택한 직렬 장치가 제거되었습니다. 다시 연결되면 자동으로 복구합니다.</value>
+  </data>
+  <data name="Settings.Title" xml:space="preserve">
+    <value>PhatStats 설정</value>
+  </data>
+  <data name="Settings.SerialTarget" xml:space="preserve">
+    <value>직렬 대상</value>
+  </data>
+  <data name="Settings.Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Settings.Protocol" xml:space="preserve">
+    <value>프로토콜</value>
+  </data>
+  <data name="Settings.SamplingInterval" xml:space="preserve">
+    <value>샘플링 간격 (ms)</value>
+  </data>
+  <data name="Settings.SerialControlLines" xml:space="preserve">
+    <value>직렬 제어선</value>
+  </data>
+  <data name="Settings.WriteTimeout" xml:space="preserve">
+    <value>쓰기 제한 시간 (ms)</value>
+  </data>
+  <data name="Settings.StartWithWindows" xml:space="preserve">
+    <value>Windows 시작 시 실행(관리자 작업)</value>
+  </data>
+  <data name="Settings.AutoSafeUsb" xml:space="preserve">
+    <value>자동(안전한 USB 대상)</value>
+  </data>
+  <data name="Settings.Auto" xml:space="preserve">
+    <value>자동</value>
+  </data>
+  <data name="Profile.CurrentPortrait" xml:space="preserve">
+    <value>현재 세로 화면</value>
+  </data>
+  <data name="Profile.Legacy" xml:space="preserve">
+    <value>레거시 WeeStatServer 0.5.2</value>
+  </data>
+  <data name="Profile.Extended" xml:space="preserve">
+    <value>확장 호환</value>
+  </data>
+  <data name="Diagnostics.Title" xml:space="preserve">
+    <value>PhatStats 진단</value>
+  </data>
+  <data name="Diagnostics.Copy" xml:space="preserve">
+    <value>진단 정보 복사</value>
+  </data>
+  <data name="Diagnostics.Export" xml:space="preserve">
+    <value>스냅샷 내보내기...</value>
+  </data>
+  <data name="Common.Close" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="About.Title" xml:space="preserve">
+    <value>PhatStats 정보</value>
+  </data>
+  <data name="About.Body" xml:space="preserve">
+    <value>PhatStats Windows Host
+버전 {0}
+
+.NET 10 · WinForms
+LibreHardwareMonitorLib 0.9.6
+USB 직렬 / Phat-Stats V3.1.7.3 ADV 호환
+
+CurrentPortrait는 각 샘플마다 완전한 실시간 프레임을 전송합니다.
+네트워크 텔레메트리와 영구 기록을 저장하지 않습니다.</value>
+  </data>
+</root>

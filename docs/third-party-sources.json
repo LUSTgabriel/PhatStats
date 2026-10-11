@@ -1,0 +1,7 @@
+[
+  {"name":"LibreHardwareMonitorLib","repo":"LibreHardwareMonitor/LibreHardwareMonitor","ref":"3d331e3370efb858411f19511373eff65a218701","license":"MPL-2.0"},
+  {"name":"BlackSharp.Core","repo":"Blacktempel/BlackSharp","ref":"c70b735c6cec123ee8a046ac4a0bc6c606f52cf0","license":"MPL-2.0"},
+  {"name":"DiskInfoToolkit","repo":"Blacktempel/DiskInfoToolkit","ref":"25319eae5781e75bcf141e844ceab2afe94d40ea","license":"MPL-2.0"},
+  {"name":"RAMSPDToolkit-NDD","repo":"Blacktempel/RAMSPDToolkit","ref":"3b47b960e0830fef344624ad5e389675d5f0a1ce","license":"MPL-2.0"},
+  {"name":"PawnIO.Modules-0.1.6","repo":"namazso/PawnIO.Modules","ref":"4aa792beb020a14c8261072e9786d2dfb38489d9","license":"LGPL-2.1"}
+]

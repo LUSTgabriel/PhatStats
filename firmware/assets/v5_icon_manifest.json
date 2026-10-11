@@ -1,0 +1,401 @@
+{
+  "CPU_AMD_STYLE1_I4": {
+    "runtime_id": "CPU_AMD_STYLE1_I4",
+    "design_label": "AMD Classic C01",
+    "source_box": [
+      45,
+      136,
+      182,
+      267
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 7,
+    "packed_bytes": 3362
+  },
+  "CPU_AMD_STYLE2_I4": {
+    "runtime_id": "CPU_AMD_STYLE2_I4",
+    "design_label": "AMD Minimal C02",
+    "source_box": [
+      236,
+      136,
+      373,
+      267
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 7,
+    "packed_bytes": 3362
+  },
+  "CPU_AMD_STYLE5_I4": {
+    "runtime_id": "CPU_AMD_STYLE5_I4",
+    "design_label": "AMD Pixel C03",
+    "source_box": [
+      423,
+      136,
+      562,
+      268
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 7,
+    "packed_bytes": 3362
+  },
+  "CPU_AMD_STYLE7_I4": {
+    "runtime_id": "CPU_AMD_STYLE7_I4",
+    "design_label": "AMD Ryzen C04",
+    "source_box": [
+      612,
+      136,
+      752,
+      268
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 7,
+    "packed_bytes": 3362
+  },
+  "CPU_INTEL_STYLE1_I4": {
+    "runtime_id": "CPU_INTEL_STYLE1_I4",
+    "design_label": "Intel Classic C05",
+    "source_box": [
+      792,
+      136,
+      931,
+      268
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 10,
+    "packed_bytes": 3362
+  },
+  "CPU_INTEL_STYLE2_I4": {
+    "runtime_id": "CPU_INTEL_STYLE2_I4",
+    "design_label": "Intel Minimal C06",
+    "source_box": [
+      978,
+      136,
+      1118,
+      268
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 10,
+    "packed_bytes": 3362
+  },
+  "CPU_INTEL_STYLE5_I4": {
+    "runtime_id": "CPU_INTEL_STYLE5_I4",
+    "design_label": "Intel Core C07",
+    "source_box": [
+      1166,
+      136,
+      1305,
+      268
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 10,
+    "packed_bytes": 3362
+  },
+  "CPU_INTEL_STYLE7_I4": {
+    "runtime_id": "CPU_INTEL_STYLE7_I4",
+    "design_label": "Intel Ultra C08",
+    "source_box": [
+      1354,
+      136,
+      1494,
+      268
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 10,
+    "packed_bytes": 3362
+  },
+  "GPU_NVIDIA_GTX_I4": {
+    "runtime_id": "GPU_NVIDIA_GTX_I4",
+    "design_label": "NVIDIA GTX G01",
+    "source_box": [
+      59,
+      345,
+      221,
+      490
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 12,
+    "packed_bytes": 3362
+  },
+  "GPU_NVIDIA_GTX_TI_I4": {
+    "runtime_id": "GPU_NVIDIA_GTX_TI_I4",
+    "design_label": "NVIDIA GTX Ti G02",
+    "source_box": [
+      312,
+      345,
+      474,
+      490
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 12,
+    "packed_bytes": 3362
+  },
+  "GPU_NVIDIA_RTX_I4": {
+    "runtime_id": "GPU_NVIDIA_RTX_I4",
+    "design_label": "NVIDIA RTX G03",
+    "source_box": [
+      565,
+      345,
+      726,
+      490
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 12,
+    "packed_bytes": 3362
+  },
+  "GPU_NVIDIA_RTX_TI_I4": {
+    "runtime_id": "GPU_NVIDIA_RTX_TI_I4",
+    "design_label": "NVIDIA RTX Ti G04",
+    "source_box": [
+      811,
+      345,
+      975,
+      490
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 12,
+    "packed_bytes": 3362
+  },
+  "GPU_NVIDIA_RTX_SUPER_I4": {
+    "runtime_id": "GPU_NVIDIA_RTX_SUPER_I4",
+    "design_label": "NVIDIA RTX Super G05",
+    "source_box": [
+      1062,
+      345,
+      1224,
+      490
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 12,
+    "packed_bytes": 3362
+  },
+  "GPU_NVIDIA_PRO_I4": {
+    "runtime_id": "GPU_NVIDIA_PRO_I4",
+    "design_label": "NVIDIA Pro G06",
+    "source_box": [
+      1315,
+      345,
+      1477,
+      490
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 12,
+    "packed_bytes": 3362
+  },
+  "GPU_AMD_RADEON_I4": {
+    "runtime_id": "GPU_AMD_RADEON_I4",
+    "design_label": "Radeon Classic A01",
+    "source_box": [
+      59,
+      563,
+      202,
+      692
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 7,
+    "packed_bytes": 3362
+  },
+  "GPU_AMD_RDNA_I4": {
+    "runtime_id": "GPU_AMD_RDNA_I4",
+    "design_label": "AMD RDNA A02",
+    "source_box": [
+      251,
+      563,
+      392,
+      692
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 7,
+    "packed_bytes": 3362
+  },
+  "GPU_INTEL_ARC_I4": {
+    "runtime_id": "GPU_INTEL_ARC_I4",
+    "design_label": "Intel Arc I01",
+    "source_box": [
+      1108,
+      562,
+      1253,
+      692
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 10,
+    "packed_bytes": 3362
+  },
+  "GPU_INTEL_UHD_IGPU_I4": {
+    "runtime_id": "GPU_INTEL_UHD_IGPU_I4",
+    "design_label": "Intel UHD I03",
+    "source_box": [
+      57,
+      771,
+      196,
+      897
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 10,
+    "packed_bytes": 3362
+  },
+  "GPU_INTEL_XE_IGPU_I4": {
+    "runtime_id": "GPU_INTEL_XE_IGPU_I4",
+    "design_label": "Intel Iris Xe I05",
+    "source_box": [
+      432,
+      771,
+      572,
+      897
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 11,
+    "packed_bytes": 3362
+  },
+  "GPU_AMD_RADEON_IGPU_I4": {
+    "runtime_id": "GPU_AMD_RADEON_IGPU_I4",
+    "design_label": "AMD Radeon Graphics A06",
+    "source_box": [
+      624,
+      771,
+      765,
+      897
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 7,
+    "packed_bytes": 3362
+  },
+  "GPU_AMD_RDNA_IGPU_I4": {
+    "runtime_id": "GPU_AMD_RDNA_IGPU_I4",
+    "design_label": "AMD RDNA iGPU A07",
+    "source_box": [
+      816,
+      771,
+      957,
+      897
+    ],
+    "canvas": "82x82",
+    "source_layers": [
+      "white.bmp",
+      "gray.bmp",
+      "accent.bmp",
+      "yellow.bmp"
+    ],
+    "accent_palette_index": 7,
+    "packed_bytes": 3362
+  }
+}

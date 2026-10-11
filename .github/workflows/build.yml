@@ -1,0 +1,69 @@
+name: Build and release
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  firmware:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - run: python tools/audit_release.py
+      - run: python tools/audit_project.py
+        working-directory: firmware
+      - run: python -m pip install platformio==6.2.0
+      - run: pio run
+        working-directory: firmware
+  host:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-dotnet@d4c94342e560b34958eacfc5d055d21461ed1c5d
+        with:
+          dotnet-version: '10.0.401'
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - run: ./build_single_exe.ps1
+        working-directory: host
+        shell: pwsh
+      - run: python tools/collect_sources.py
+      - run: python tools/package_release.py
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: windows-release
+          path: |
+            host/dist/PhatStats-*.zip
+            host/dist/ThirdParty-*-source.zip
+            host/dist/SHA256SUMS.txt
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: [firmware, host]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: windows-release
+          path: release-assets
+      - name: Check version and publish prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          expected=$(python -c 'import json; print(json.load(open("VERSION.json"))["tag"])')
+          test "$RELEASE_TAG" = "$expected"
+          if gh release view "$RELEASE_TAG" > /dev/null 2>&1; then
+            echo "Release already published; keep existing assets intact."
+            exit 0
+          fi
+          gh release create "$RELEASE_TAG" release-assets/* --verify-tag --prerelease --title "PhatStats $RELEASE_TAG" --notes-file CHANGELOG.md

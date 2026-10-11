@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="Menu.SerialPort" xml:space="preserve">
+    <value>シリアルポート</value>
+  </data>
+  <data name="Menu.Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Menu.SamplingInterval" xml:space="preserve">
+    <value>サンプリング間隔</value>
+  </data>
+  <data name="Menu.Language" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="Menu.PauseTelemetry" xml:space="preserve">
+    <value>テレメトリを一時停止</value>
+  </data>
+  <data name="Menu.ResumeTelemetry" xml:space="preserve">
+    <value>テレメトリを再開</value>
+  </data>
+  <data name="Menu.ReconnectNow" xml:space="preserve">
+    <value>今すぐ再接続</value>
+  </data>
+  <data name="Menu.Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Menu.Diagnostics" xml:space="preserve">
+    <value>診断</value>
+  </data>
+  <data name="Menu.StartWithWindows" xml:space="preserve">
+    <value>Windows と同時に起動</value>
+  </data>
+  <data name="Menu.About" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="Menu.Exit" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="Menu.Auto" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="Status.Unconfigured" xml:space="preserve">
+    <value>未設定</value>
+  </data>
+  <data name="Status.Ambiguous" xml:space="preserve">
+    <value>複数のデバイス</value>
+  </data>
+  <data name="Status.NoDevice" xml:space="preserve">
+    <value>デバイスなし</value>
+  </data>
+  <data name="Status.Available" xml:space="preserve">
+    <value>利用可能</value>
+  </data>
+  <data name="Status.Connecting" xml:space="preserve">
+    <value>接続中</value>
+  </data>
+  <data name="Status.Connected" xml:space="preserve">
+    <value>接続済み</value>
+  </data>
+  <data name="Status.Busy" xml:space="preserve">
+    <value>使用中</value>
+  </data>
+  <data name="Status.Recovering" xml:space="preserve">
+    <value>復旧中</value>
+  </data>
+  <data name="Status.Switching" xml:space="preserve">
+    <value>切替中</value>
+  </data>
+  <data name="Status.Paused" xml:space="preserve">
+    <value>一時停止</value>
+  </data>
+  <data name="Status.HardwareDegraded" xml:space="preserve">
+    <value>ハードウェアテレメトリ低下</value>
+  </data>
+  <data name="Notify.SerialBusy" xml:space="preserve">
+    <value>{0} は存在しますが、他のアプリケーションが使用中です。自動的に再試行します。</value>
+  </data>
+  <data name="Notify.DeviceRemoved" xml:space="preserve">
+    <value>選択したシリアルデバイスが取り外されました。戻ると自動的に再接続します。</value>
+  </data>
+  <data name="Settings.Title" xml:space="preserve">
+    <value>PhatStats 設定</value>
+  </data>
+  <data name="Settings.SerialTarget" xml:space="preserve">
+    <value>シリアル対象</value>
+  </data>
+  <data name="Settings.Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Settings.Protocol" xml:space="preserve">
+    <value>プロトコル</value>
+  </data>
+  <data name="Settings.SamplingInterval" xml:space="preserve">
+    <value>サンプリング間隔 (ms)</value>
+  </data>
+  <data name="Settings.SerialControlLines" xml:space="preserve">
+    <value>シリアル制御線</value>
+  </data>
+  <data name="Settings.WriteTimeout" xml:space="preserve">
+    <value>書き込みタイムアウト (ms)</value>
+  </data>
+  <data name="Settings.StartWithWindows" xml:space="preserve">
+    <value>Windows と同時に起動（管理者タスク）</value>
+  </data>
+  <data name="Settings.AutoSafeUsb" xml:space="preserve">
+    <value>自動（安全な USB 対象）</value>
+  </data>
+  <data name="Settings.Auto" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="Profile.CurrentPortrait" xml:space="preserve">
+    <value>現在の縦画面</value>
+  </data>
+  <data name="Profile.Legacy" xml:space="preserve">
+    <value>旧 WeeStatServer 0.5.2</value>
+  </data>
+  <data name="Profile.Extended" xml:space="preserve">
+    <value>拡張互換</value>
+  </data>
+  <data name="Diagnostics.Title" xml:space="preserve">
+    <value>PhatStats 診断</value>
+  </data>
+  <data name="Diagnostics.Copy" xml:space="preserve">
+    <value>診断情報をコピー</value>
+  </data>
+  <data name="Diagnostics.Export" xml:space="preserve">
+    <value>スナップショットを出力...</value>
+  </data>
+  <data name="Common.Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="About.Title" xml:space="preserve">
+    <value>PhatStats について</value>
+  </data>
+  <data name="About.Body" xml:space="preserve">
+    <value>PhatStats Windows Host
+バージョン {0}
+
+.NET 10 · WinForms
+LibreHardwareMonitorLib 0.9.6
+USB シリアル / Phat-Stats V3.1.7.3 ADV 互換
+
+CurrentPortrait は各サンプルで完全なリアルタイムフレームを送信します。
+ネットワークテレメトリおよび永続的な履歴はありません。</value>
+  </data>
+</root>

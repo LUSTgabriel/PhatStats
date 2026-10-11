@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="Menu.SerialPort" xml:space="preserve">
+    <value>串口</value>
+  </data>
+  <data name="Menu.Gpu" xml:space="preserve">
+    <value>显卡</value>
+  </data>
+  <data name="Menu.SamplingInterval" xml:space="preserve">
+    <value>采样间隔</value>
+  </data>
+  <data name="Menu.Language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="Menu.PauseTelemetry" xml:space="preserve">
+    <value>暂停遥测</value>
+  </data>
+  <data name="Menu.ResumeTelemetry" xml:space="preserve">
+    <value>恢复遥测</value>
+  </data>
+  <data name="Menu.ReconnectNow" xml:space="preserve">
+    <value>立即重连</value>
+  </data>
+  <data name="Menu.Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="Menu.Diagnostics" xml:space="preserve">
+    <value>诊断</value>
+  </data>
+  <data name="Menu.StartWithWindows" xml:space="preserve">
+    <value>随 Windows 启动</value>
+  </data>
+  <data name="Menu.About" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="Menu.Exit" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="Menu.Auto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="Status.Unconfigured" xml:space="preserve">
+    <value>未配置</value>
+  </data>
+  <data name="Status.Ambiguous" xml:space="preserve">
+    <value>存在多个设备</value>
+  </data>
+  <data name="Status.NoDevice" xml:space="preserve">
+    <value>无设备</value>
+  </data>
+  <data name="Status.Available" xml:space="preserve">
+    <value>可用</value>
+  </data>
+  <data name="Status.Connecting" xml:space="preserve">
+    <value>正在连接</value>
+  </data>
+  <data name="Status.Connected" xml:space="preserve">
+    <value>已连接</value>
+  </data>
+  <data name="Status.Busy" xml:space="preserve">
+    <value>端口占用</value>
+  </data>
+  <data name="Status.Recovering" xml:space="preserve">
+    <value>正在恢复</value>
+  </data>
+  <data name="Status.Switching" xml:space="preserve">
+    <value>正在切换</value>
+  </data>
+  <data name="Status.Paused" xml:space="preserve">
+    <value>已暂停</value>
+  </data>
+  <data name="Status.HardwareDegraded" xml:space="preserve">
+    <value>硬件遥测降级</value>
+  </data>
+  <data name="Notify.SerialBusy" xml:space="preserve">
+    <value>{0} 已存在但正在被其他程序占用。程序会自动重试。</value>
+  </data>
+  <data name="Notify.DeviceRemoved" xml:space="preserve">
+    <value>所选串口设备已移除。设备恢复后会自动重连。</value>
+  </data>
+  <data name="Settings.Title" xml:space="preserve">
+    <value>PhatStats 设置</value>
+  </data>
+  <data name="Settings.SerialTarget" xml:space="preserve">
+    <value>串口目标</value>
+  </data>
+  <data name="Settings.Gpu" xml:space="preserve">
+    <value>显卡</value>
+  </data>
+  <data name="Settings.Protocol" xml:space="preserve">
+    <value>协议</value>
+  </data>
+  <data name="Settings.SamplingInterval" xml:space="preserve">
+    <value>采样间隔（毫秒）</value>
+  </data>
+  <data name="Settings.SerialControlLines" xml:space="preserve">
+    <value>串口控制线</value>
+  </data>
+  <data name="Settings.WriteTimeout" xml:space="preserve">
+    <value>写入超时（毫秒）</value>
+  </data>
+  <data name="Settings.StartWithWindows" xml:space="preserve">
+    <value>随 Windows 启动（高权限任务）</value>
+  </data>
+  <data name="Settings.AutoSafeUsb" xml:space="preserve">
+    <value>自动（安全 USB 目标）</value>
+  </data>
+  <data name="Settings.Auto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="Profile.CurrentPortrait" xml:space="preserve">
+    <value>当前竖屏协议</value>
+  </data>
+  <data name="Profile.Legacy" xml:space="preserve">
+    <value>旧版 WeeStatServer 0.5.2</value>
+  </data>
+  <data name="Profile.Extended" xml:space="preserve">
+    <value>扩展兼容协议</value>
+  </data>
+  <data name="Diagnostics.Title" xml:space="preserve">
+    <value>PhatStats 诊断</value>
+  </data>
+  <data name="Diagnostics.Copy" xml:space="preserve">
+    <value>复制诊断信息</value>
+  </data>
+  <data name="Diagnostics.Export" xml:space="preserve">
+    <value>导出快照...</value>
+  </data>
+  <data name="Common.Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="About.Title" xml:space="preserve">
+    <value>关于 PhatStats</value>
+  </data>
+  <data name="About.Body" xml:space="preserve">
+    <value>PhatStats Windows 上位机
+版本 {0}
+
+.NET 10 · WinForms
+LibreHardwareMonitorLib 0.9.6
+USB 串口 / Phat-Stats V3.1.7.3 ADV 兼容
+
+CurrentPortrait 每次采样发送完整实时帧。
+无网络遥测，无持久化遥测历史。</value>
+  </data>
+</root>

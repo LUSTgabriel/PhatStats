@@ -1,0 +1,5 @@
+LibreHardwareMonitorLib 0.9.6 is distributed under the Mozilla Public License 2.0 (MPL-2.0).
+Project: https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+License: https://www.mozilla.org/MPL/2.0/
+
+This application consumes the unmodified LibreHardwareMonitorLib NuGet package as a separate dependency.

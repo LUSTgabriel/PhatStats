@@ -1,0 +1,15 @@
+PhatStats is a collection with component-specific licenses.
+
+Firmware is derived from koogar/Phat-Stats by Rupert Hirst and Colin Conway.
+Its application source is GPL-2.0-or-later; this distribution elects GPL-3.0
+for combined builds with LGPL-3.0 Adafruit_NeoPixel. Preserve upstream notices.
+See firmware/LICENSE.txt and host/LICENSE for the full GPL texts.
+
+The Windows host application and new repository tooling/documentation are
+GPL-3.0-or-later, Copyright (c) 2026 LUSTgabriel and contributors.
+This software comes WITHOUT ANY WARRANTY. You may copy, modify and redistribute
+it under the applicable GNU GPL. Third-party dependencies retain their licenses;
+see THIRD_PARTY_NOTICES.md and LICENSES/.
+
+AMD, Intel, NVIDIA and other names/logos are the property of their respective
+owners. Software licensing does not grant trademark rights or endorsement.

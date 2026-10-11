@@ -1,0 +1,65 @@
+if (inputString.indexOf("CPU") > -1)
+int cpuNameStart = inputString.indexOf("CPU:");
+if (inputString.indexOf("Intel", cpuNameStart) > -1) {
+if (inputString.indexOf("GPU") > -1)
+cpuName = inputString.substring(cpuNameStart, inputString.indexOf("GPU:"));
+cpuName = inputString.substring(cpuNameStart);
+if (inputString.indexOf("GPU") > -1)
+int gpuNameStart = inputString.indexOf("GPU:");
+if (inputString.indexOf("NVIDIA", gpuNameStart) > -1) {
+int gpuNameEnd = inputString.indexOf("|", gpuNameStart);
+String gpuName = inputString.substring(gpuNameStart, gpuNameEnd);
+int cpuStringStart = inputString.indexOf("C");
+int cpuDegree = inputString.indexOf("c");
+int cpuStringLimit = inputString.indexOf("|");
+String cpuString1 = inputString.substring(cpuStringStart + 1, cpuDegree);
+String cpuString2 = inputString.substring(cpuDegree + 1, cpuStringLimit - 1);
+int cpuCoreClockStart = inputString.indexOf("CHC") + 3;
+int cpuCoreClockEnd = inputString.indexOf("|", cpuCoreClockStart);
+String cpuClockString = inputString.substring(cpuCoreClockStart, cpuCoreClockEnd);
+//int cpuFanStart = inputString.indexOf("CF") + 3;
+//int cpuFanEnd = inputString.indexOf("|", cpuFanstart);
+//String cpuFanString = inputString.substring(cpuFanStart, cpuFanEnd);
+int gpuStringStart = inputString.indexOf("G", cpuStringLimit);
+int gpuDegree = inputString.indexOf("c", gpuStringStart);
+int gpuStringLimit = inputString.indexOf("|", gpuStringStart);
+String gpuString1 = inputString.substring(gpuStringStart + 1, gpuDegree);
+String gpuString2 = inputString.substring(gpuDegree + 1, gpuStringLimit - 1);
+int gpuCoreClockStart = inputString.indexOf("GCC") + 3;
+int gpuCoreClockEnd = inputString.indexOf("|", gpuCoreClockStart);
+String gpuCoreClockString = inputString.substring(gpuCoreClockStart, gpuCoreClockEnd);
+int gpuMemClockStart = inputString.indexOf("GMC") + 3;
+int gpuMemClockEnd = inputString.indexOf("|", gpuMemClockStart);
+String gpuMemClockString = inputString.substring(gpuMemClockStart, gpuMemClockEnd);
+int gpuShaderClockStart = inputString.indexOf("GSC") + 3;
+int gpuShaderClockEnd = inputString.indexOf("|", gpuShaderClockStart);
+String gpuShaderClockString = inputString.substring(gpuShaderClockStart, gpuShaderClockEnd);
+int gpuMemoryStart = inputString.indexOf("GMT") + 3;
+int gpuMemoryEnd = inputString.indexOf("|", gpuMemoryStart);
+String gpuMemoryString = inputString.substring(gpuMemoryStart, gpuMemoryEnd);
+int gpuMemoryUsedStart = inputString.indexOf("GMU") + 3;
+int gpuMemoryUsedEnd = inputString.indexOf("|", gpuMemoryUsedStart);
+String gpuMemoryUsedString = inputString.substring(gpuMemoryUsedStart, gpuMemoryUsedEnd);
+int gpuPowerStart = inputString.indexOf("GPWR") + 4;
+int gpuPowerEnd = inputString.indexOf("|", gpuPowerStart);
+String gpuPowerString = inputString.substring(gpuPowerStart, gpuPowerEnd);
+int gpuFanStart = inputString.indexOf("GFANL") + 5;  //
+int gpuFanEnd = inputString.indexOf("|", gpuFanStart);
+String gpuFanString = inputString.substring(gpuFanStart, gpuFanEnd);
+int gpuRPMStart = inputString.indexOf("GRPM") + 4;
+int gpuRPMEnd = inputString.indexOf("|", gpuRPMStart);
+String gpuRPMString = inputString.substring(gpuRPMStart, gpuRPMEnd);
+int ramStringStart = inputString.indexOf("R", gpuStringLimit);
+int ramStringLimit = inputString.indexOf("|", ramStringStart);
+String ramString   = inputString.substring(ramStringStart + 1 , ramStringLimit - 2);
+int AramStringStart = inputString.indexOf("RA", ramStringLimit);
+int AramStringLimit = inputString.indexOf("|", AramStringStart);
+String AramString = inputString.substring(AramStringStart + 2 , AramStringLimit);
+int EthUpStringStart = inputString.indexOf("ETU") + 3;
+int EthUpStringLimit = inputString.indexOf("|", EthUpStringStart);
+String EthUpString   = inputString.substring(EthUpStringStart, EthUpStringLimit);
+int EthDownStringStart = inputString.indexOf("ETD") + 3;
+int EthDownStringLimit = inputString.indexOf("|", EthDownStringStart);
+String EthDownString   = inputString.substring(EthDownStringStart, EthDownStringLimit);
+inputString = "";
+stringComplete = false;
