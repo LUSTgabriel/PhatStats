@@ -63,7 +63,7 @@ jobs:
           expected=$(python -c 'import json; print(json.load(open("VERSION.json"))["tag"])')
           test "$RELEASE_TAG" = "$expected"
           if gh release view "$RELEASE_TAG" > /dev/null 2>&1; then
-            echo "Release already published; keep existing assets intact."
+            gh release upload "$RELEASE_TAG" release-assets/*
             exit 0
           fi
           gh release create "$RELEASE_TAG" release-assets/* --verify-tag --prerelease --title "PhatStats $RELEASE_TAG" --notes-file CHANGELOG.md
